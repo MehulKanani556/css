@@ -1,0 +1,109 @@
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+/*-----------button 1-----------*/
+.btn1{
+    padding: 20px 40px;
+    border: none;
+    margin: 50px 20px;
+    background-color: red;
+    font-weight:bold;
+    color: white;
+    position: relative;
+
+}
+.btn1::before{
+    content: '';
+    width: 0;
+    height: 4px;
+    background-color: black;
+    transition: 0.4s;
+    position: absolute;
+    /* transform: scale(0); */
+    bottom: 0;
+    left: 0;
+}
+.btn1:hover::before{
+    width: 100%;
+    transform: scale(1);
+}
+/*-----------button 2----------- */
+.btn2{
+    padding: 20px 40px;
+    border: none;
+    margin: 50px 20px;
+    background-color: red;
+    font-weight:bold;
+    color: white;
+    position: relative;
+
+}
+.btn2::before{
+    content: '';
+    width: 0;
+    height: 4px;
+    background-color: black;
+    transition: 0.4s;
+    position: absolute;
+    transform: scale(0);
+    bottom: 0;
+    left: 50%;
+}
+.btn2:hover::before{
+    width: 100%;
+    transform: scale(1);
+    left: 0;
+}
+/*-----------button 3-----------*/
+.btn3{
+    padding: 20px 40px;
+    border: none;
+    margin: 50px 20px;
+    background-color: red;
+    font-weight:bold;
+    color: white;
+    position: relative;
+}
+.btn3::before{
+    content: '';
+    width: 0;
+    height: 4px;
+    background-color: black;
+    transition: 0.4s;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.btn3:hover::before{
+    width: 100%;    
+}
+/*-----------button 4-----------*/
+.btn4{
+    padding: 20px 40px;
+    border: none;
+    margin: 50px 20px;
+    background-color: red;
+    font-weight:bold;
+    color: white;
+    position: relative;
+}
+.btn4::before{
+    content: '';
+    width: 0;
+    height: 4px;
+    background-color: black;
+    transition: 0.4s;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.btn4:hover::before{
+    width: 100%;    
+}
+.btn4 span{
+    position: relative;
+    z-index: 1;
+}
+

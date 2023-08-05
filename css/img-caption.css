@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    font-size: 35px;
+    text-align: center;
+    margin: 20px;
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.single_item{
+    width: 33.33%;
+    height: 300px;
+    margin: 10px;
+    overflow: hidden;
+}
+.row{
+    display: flex;
+}
+.item_img{
+    height: 300px;
+    position: relative;
+}
+.layer{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;   
+    color: white;    
+    transition: 0.5s;
+}
+/* Effect 1 */
+.r1 .layer{
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+.single_item .item_img:hover .layer{
+    opacity: 1;
+}
+/* Effect 2*/
+.r2 .layer{
+    top:0;
+    left: -100%;
+    opacity: 0;
+}
+.r2 .single_item .item_img:hover .layer{
+    opacity: 1;
+    top: 0;
+    left: 0;
+}
+/* Effect 3 */
+.r3 .layer{
+    top:-100%;
+    left: 0%;
+    opacity: 0;
+}
+.r3 .single_item .item_img:hover .layer{
+    opacity: 1;
+    top: 0;
+    left: 0;
+}
+
+/* Effect 4 */
+.r4 .layer{
+    top: -100%;
+}
+.r4 .item_img{
+    top: 0;
+}
+    
+.r4 .single_item:hover .item_img {
+   
+    top: 100%;
+    transition: 1s;
+}
+.r4 .single_item .item_img:hover .layer{
+    
+    transition: 1s;
+}
+
+
+

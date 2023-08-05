@@ -1,0 +1,51 @@
+/* .list li:first-child{
+    background-color: aqua;
+}
+.list li:last-child{
+    background-color: aqua;
+}
+.list li:nth-child(3){
+    background-color: aqua;
+}
+.list li:nth-last-child(3){
+    background-color: aqua;
+} */
+/* .list li:nth-child(even){
+    background-color: aqua;
+}
+.list li:nth-child(odd){
+    background-color: rgb(40, 173, 173);
+} */
+/* .main p:first-of-type{
+    background-color: aqua;
+}
+.main p:last-of-type{
+    background-color: aqua;
+} */
+/* .main :not(p){
+    background-color: red;
+} */
+/* .main :is(p){
+    background-color: red;
+} */
+/* .main h1:only-of-type{
+    background-color: aqua;
+} */
+/* .sec p:only-child{
+    background-color: aqua;
+}
+.sec p::first-letter{
+    font-size: 40px;
+    color: red;
+}
+.sec p::first-line{
+   
+    color: red;
+}
+::selection{
+    background-color: blueviolet;
+    color: white;
+}
+::placeholder{
+    color: red;
+} */

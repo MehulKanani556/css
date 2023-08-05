@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bgBlue{
+    background-color:#003366;
+    color: white;
+}
+.container{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.flex{
+    display:flex ;
+    flex-wrap: wrap;
+}
+.top_header{
+    justify-content: space-between;
+    padding: 15px 0;
+}
+.social_info {
+    width: 30%;
+    text-align: right;
+}
+.social_info a{
+    color: white;
+    margin: 0 10px;
+}
+.social_info a:hover{
+    color:darkgoldenrod;
+}
+.email_info {
+    width: 30%;
+}
+.email_info div{
+    margin-right: 15px;
+}
+.contact_info{
+    width: 40%;
+    text-align: center;
+}
+.main_logo{
+    width: 200px;
+}
+.main_logo a img{
+    width: 100%;
+}
+.main_main li a{
+    text-transform: uppercase;
+}
+.main_main li {
+    text-transform: uppercase;
+}
+
+
